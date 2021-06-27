@@ -1,3 +1,7 @@
+// for theory
+//https://www.educative.io/edpresso/what-is-a-singly-linked-list
+//https://images.app.goo.gl/EN8PQ2BjYYxUQ7FE8
+
 #include<stdio.h>
 #include<stdlib.h>    //libary for malloc()
 
