@@ -28,6 +28,11 @@ void append(int data) {
 
 }
 
+void insert() {
+
+}
+
+
 void display() {
 	temp = head;
 	while (temp != 0) {

@@ -1,3 +1,9 @@
 {
-    "ros.distro": "melodic"
+    "ros.distro": "melodic",
+    "C_Cpp.errorSquiggles": "Disabled",
+    "files.associations": {
+        "bitset": "cpp",
+        "chrono": "cpp",
+        "algorithm": "cpp"
+    }
 }
