@@ -1,6 +1,5 @@
 #include <iostream>
 using namespace std;
-
 template <class T>
 void marge(T *a, int lb, int mid, int ub)
 {
@@ -10,7 +9,6 @@ void marge(T *a, int lb, int mid, int ub)
     T b[ub - lb + 1];
     while (i <= mid && j <= ub)
     {
-
         if (a[i] <= a[j])
         {
             b[k] = a[i];
@@ -63,7 +61,7 @@ void margeSort(T *array, int lb, int ub)
 int main()
 {
 
-    char array[] = {1.1, 1.2, 2.3, 1.0, 4.5, 2.1, 3.1, 0};
+    float array[] = {1.1, 1.2, 2.3, 1.0, 4.5, 2.1, 3.1, 0};
 
     int size = sizeof(array) / sizeof(array[0]);
 
