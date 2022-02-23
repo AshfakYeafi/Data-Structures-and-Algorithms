@@ -3,7 +3,7 @@
 
 #define N 5
 int s1[N],s2[N];        //Define 2 stack
-int count=0,top_1=-1,top_2=-2;      //count for tracking total element in queue
+int count=0,top_1=-1,top_2=-1;      //count for tracking total element in queue
 
 
 void push_1(int x){     

@@ -22,19 +22,19 @@ void c_sort(int arr[],int n){
         out_arr[--count[arr[i]]]=arr[i];
     }
     for(int i=n-1;i>=0;i--){
-        arr[i]=out_arr[n-i-1];
+        arr[i]=out_arr[i];
     }
 }
 
 int main(){
 
-    int arr[6]={45,4,5,7,1,2};
+    int arr[5]={4,3,2,6,4};
 
     int n=sizeof(arr)/sizeof(arr[0]);
     
     c_sort(arr,n);
     for(int i=0;i<n;i++){
-        cout<<arr[i]<<endl;
+        cout<<arr[i]<<" ";
     }
 
 }

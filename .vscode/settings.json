@@ -4,6 +4,19 @@
     "files.associations": {
         "bitset": "cpp",
         "chrono": "cpp",
-        "algorithm": "cpp"
+        "algorithm": "cpp",
+        "typeindex": "cpp",
+        "typeinfo": "cpp",
+        "*.tcc": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "limits": "cpp",
+        "cmath": "cpp",
+        "type_traits": "cpp",
+        "valarray": "cpp",
+        "new": "cpp",
+        "utility": "cpp",
+        "*.txx": "cpp",
+        "complex": "cpp"
     }
 }
